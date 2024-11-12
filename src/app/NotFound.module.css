@@ -1,0 +1,60 @@
+/* NotFound.module.css */
+
+/* NotFound.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+  }
+  
+  .gif {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+
+.title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out; /* Example of CSS animation */
+}
+
+.message {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    animation: slideIn 1s ease-in-out; /* Example of CSS animation */
+}
+/* NotFound.module.css */
+
+.link {
+    color: #0070f3;
+    text-decoration: underline;
+    cursor: pointer; /* Make it look clickable */
+    animation: fadeIn 1s ease-in-out; /* Example of CSS animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
